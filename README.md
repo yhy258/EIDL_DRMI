@@ -1,11 +1,11 @@
 <div align="center">
-<h1> Deep learning-assisted end-to-end metalens imaging 🌆</h1>
+<h1> Deep learning-assisted end-to-end metalens imaging </h1>
 <h3> DRMI : DNN-based image Reconstruction framework customized for Metalens Imaging system </h3>
 
-[Joonhyuk Seo]()<sup>1,✢</sup>,
-[Jaegang Jo]()<sup>2,✢</sup>,
-[Joohoon Kim]()<sup>3,✢</sup>,
-[Joonho Kang]()<sup>2,</sup>, 
+Joonhyuk Seo<sup>1,✢</sup>,
+Jaegang Jo<sup>2,✢</sup>,
+[Joohoon Kim](https://scholar.google.com/citations?hl=en&user=tRNVtewAAAAJ)<sup>3,✢</sup>,
+Joonho Kang<sup>2,</sup>, 
 [Haejun Chung](https://scholar.google.com/citations?user=O-oZnIwAAAAJ)<sup>2,📧</sup>,
 [Junsuk Rho](https://scholar.google.com/citations?user=jdNQRH8AAAAJ)<sup>3,📧</sup>,
 [Jehyung Hong](https://scholar.google.com/citations?user=7axCcBkAAAAJ)<sup>2,📧</sup>,
