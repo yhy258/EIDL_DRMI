@@ -1,5 +1,19 @@
 # Deep learning-assisted end-to-end metalens imaging
 
+[Joonhyuk Seo]()<sup>1,✢</sup>,
+[Jaegang Jo]()<sup>2,✢</sup>,
+[Joohoon Kim]()<sup>3,✢</sup>,
+[Joonho Kang]()<sup>2,</sup>, 
+[Haejun Chung](https://scholar.google.com/citations?user=O-oZnIwAAAAJ)<sup>2,📧</sup>,
+[Junsuk Rho](https://scholar.google.com/citations?user=jdNQRH8AAAAJ)<sup>3,📧</sup>,
+[Jehyung Hong](https://scholar.google.com/citations?user=7axCcBkAAAAJ)<sup>2,📧</sup>,
+
+<sup>1</sup> Department of Artificial Intelligence, Hanyang University\
+<sup>2</sup> Department of Electronic Engineering, Hanyang University\
+<sup>3</sup> Department of Mechanical Engineering, Pohang University of Science and Technology (POSTECH)\
+
+(✢) Equal contribution.
+(📧) corresponding author.
 
 <hr />
 
