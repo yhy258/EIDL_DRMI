@@ -1,0 +1,11 @@
+basicsr==1.4.2
+einops==0.6.1
+lmdb==1.4.1
+matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-base_1594091694890/work
+numpy @ file:///croot/numpy_and_numpy_base_1682520569166/work
+opencv-python==4.8.0.76
+Pillow==9.3.0
+pyiqa==0.1.7
+torch==2.0.1
+torchvision==0.15.2
+tqdm==4.66.1
