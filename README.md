@@ -12,7 +12,7 @@ Joonho Kang<sup>2,</sup>,
 
 <sup>1</sup> Department of Artificial Intelligence, Hanyang University\
 <sup>2</sup> Department of Electronic Engineering, Hanyang University\
-<sup>3</sup> Department of Mechanical Engineering, Pohang University of Science and Technology (POSTECH)\
+<sup>3</sup> Department of Mechanical Engineering, Pohang University of Science and Technology (POSTECH)
 
 (✢) Equal contribution.
 (📧) corresponding author.
