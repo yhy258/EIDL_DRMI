@@ -44,7 +44,6 @@ In this study, we propose the DNN-based image Reconstruction framework customize
   </tr>
   <tr>
     <th class="tg-c3ow" colspan="1" align="center">PSNR</th>
-    <th class="tg-c3ow" colspan="1" align="center">PSNR</th>
     <th class="tg-c3ow" colspan="1" align="center">SSIM</th>
     <th class="tg-c3ow" colspan="1" align="center">LPIPS</th>
     <th class="tg-c3ow" colspan="1" align="center">MAE</th>
