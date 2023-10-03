@@ -13,10 +13,10 @@ class DRMI_Config():
     lr = 3e-4
     batch_size = 16
     progressive_learning = False
-    coord_info = False
+    coord_info = True
     
     adversarial = False
-    fourier_adversarial = False
+    fourier_adversarial = True
     use_grad_clip = True
     
     optim_type = "AdamW"
@@ -34,7 +34,7 @@ class DRMI_Config():
     dec_blk_nums = [2, 2, 2, 2]
 
     # model save
-    save_root = "/home/joon/DRMI/save_model"   
+    save_root = ""   
     save_frequency = 1000
     
     if "Local" in model_type:
