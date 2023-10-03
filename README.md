@@ -52,52 +52,52 @@ In this study, we propose the DNN-based image Reconstruction framework customize
 </thead>
 <tbody>
   <tr>
-    <th class="tg-c3ow" colspan="1" align="center">Metalens</th>
-    <th class="tg-c3ow" colspan="1" align="center">14.722/1.328</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.464/0.160</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.788/0.112</th>
-    <th class="tg-c3ow" colspan="1" align="center">3.2805</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.6394</th>
+    <td class="tg-c3ow" colspan="1" align="center">Metalens</td>
+    <td class="tg-c3ow" colspan="1" align="center">14.722/1.328</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.464/0.160</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.788/0.112</td>
+    <td class="tg-c3ow" colspan="1" align="center">3.2805</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.6394</td>
   </tr>
   <tr>
-    <th class="tg-c3ow" colspan="1" align="center">MIRNetV2</th>
-    <th class="tg-c3ow" colspan="1" align="center">18.517/1.893</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.586/0.135</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.553/0.098</th>
-    <th class="tg-c3ow" colspan="1" align="center">2.2403</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.6445</th>
+    <td class="tg-c3ow" colspan="1" align="center">MIRNetV2</td>
+    <td class="tg-c3ow" colspan="1" align="center">18.517/1.893</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.586/0.135</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.553/0.098</td>
+    <td class="tg-c3ow" colspan="1" align="center">2.2403</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.6445</td>
   </tr>
   <tr>
-    <th class="tg-c3ow" colspan="1" align="center">SFNet</th>
-    <th class="tg-c3ow" colspan="1" align="center">18.231/1.727</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.597/0.129</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.520/0.095</th>
-    <th class="tg-c3ow" colspan="1" align="center">2.1941</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.6460</th>
+    <td class="tg-c3ow" colspan="1" align="center">SFNet</td>
+    <td class="tg-c3ow" colspan="1" align="center">18.231/1.727</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.597/0.129</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.520/0.095</td>
+    <td class="tg-c3ow" colspan="1" align="center">2.1941</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.6460</td>
   </tr>
   <tr>
-    <th class="tg-c3ow" colspan="1" align="center">HINet(Local)</th>
-    <th class="tg-c3ow" colspan="1" align="center">21.400/2.333</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.674/0.117</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.449/0.097</th>
-    <th class="tg-c3ow" colspan="1" align="center">1.8508</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.6563</th>
+    <td class="tg-c3ow" colspan="1" align="center">HINet(Local)</td>
+    <td class="tg-c3ow" colspan="1" align="center">21.400/2.333</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.674/0.117</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.449/0.097</td>
+    <td class="tg-c3ow" colspan="1" align="center">1.8508</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.6563</td>
   </tr>
   <tr>
-    <th class="tg-c3ow" colspan="1" align="center">NAFNet</th>
-    <th class="tg-c3ow" colspan="1" align="center">21.731/2.382</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.676/0.116</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.436/0.097</th>
-    <th class="tg-c3ow" colspan="1" align="center">1.8165</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.6555</th>
+    <td class="tg-c3ow" colspan="1" align="center">NAFNet</td>
+    <td class="tg-c3ow" colspan="1" align="center">21.731/2.382</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.676/0.116</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.436/0.097</td>
+    <td class="tg-c3ow" colspan="1" align="center">1.8165</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.6555</td>
   </tr>
   <tr>
-    <th class="tg-c3ow" colspan="1" align="center">DRMI</th>
-    <th class="tg-c3ow" colspan="1" align="center">22.109/2.423</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.691/0.109</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.428/0.096</th>
-    <th class="tg-c3ow" colspan="1" align="center">1.7585</th>
-    <th class="tg-c3ow" colspan="1" align="center">0.6589</th>
-  </tr>
+    <td class="tg-c3ow" colspan="1" align="center">DRMI</td>
+    <td class="tg-c3ow" colspan="1" align="center">22.109/2.423</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.691/0.109</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.428/0.096</td>
+    <td class="tg-c3ow" colspan="1" align="center">1.7585</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.6589</td>
+</tr>
 </tbody>
 </table>
