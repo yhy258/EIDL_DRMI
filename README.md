@@ -42,15 +42,16 @@ In this study, we propose the DNN-based image Reconstruction framework customize
     <th class="tg-c3ow" colspan="3" align="center">Image Quality Metric (mean/std)</th>
     <th class="tg-c3ow" colspan="2" align="center">Frequency Measurement</th>
   </tr>
-</thead>
-<tbody>
   <tr>
+    <th class="tg-c3ow" colspan="1" align="center">PSNR</th>
     <th class="tg-c3ow" colspan="1" align="center">PSNR</th>
     <th class="tg-c3ow" colspan="1" align="center">SSIM</th>
     <th class="tg-c3ow" colspan="1" align="center">LPIPS</th>
     <th class="tg-c3ow" colspan="1" align="center">MAE</th>
     <th class="tg-c3ow" colspan="1" align="center">Cosine Similarity</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <th class="tg-c3ow" colspan="1" align="center">Metalens</th>
     <th class="tg-c3ow" colspan="1" align="center">14.722/1.328</th>
