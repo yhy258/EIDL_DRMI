@@ -24,6 +24,7 @@ Joonho Kang<sup>2,</sup>,
 </div>
 ## Introduction
 
+
 ![](figures/Fig1.png)
 
 Metalenses, ultra-thin film lenses composed of subwavelength structures, have been spotlighted as a technology to overcome the limitations of conventional lenses. However, recent studies suggest that large-area broadband metalenses may suffer from a fundamental trade-off between broadband focusing efficiency and their diameter. Consequently, at present, reported broadband metalenses show chromatic aberration or low focusing efficiency over the large bandwidth, which hinders a commercialization of metalens-based compact imaging.
@@ -101,3 +102,15 @@ In this study, we propose the DNN-based image Reconstruction framework customize
 </tr>
 </tbody>
 </table>
+
+## Installation
+```bash
+    pip install -r requirements.txt
+```
+
+## Data preparation
+Coming soon..
+
+
+
+
