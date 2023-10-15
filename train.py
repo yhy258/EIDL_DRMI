@@ -7,7 +7,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 import models
-from data.datasets import MetaLensPair, LMDBMetaLensPair
+from data.datasets import LMDBMetaLensPair
 from data.data_util import get_iter_flag, define_data_instances
 from loss import losses
 import schedulers
@@ -133,16 +133,11 @@ def train(config):
             next_iter = this_iter
         else:
             next_iter = cumsum_iters[progressive_index+1]
-        if config.data_mode == "lmdb":
-            dataset = LMDBMetaLensPair(patch_size=config.gt_sizes[progressive_index], normalization=dataset_normalization)
-        else :
-            dataset = MetaLensPair(patch_size=config.gt_sizes[progressive_index], normalization=dataset_normalization)
+
+        dataset = LMDBMetaLensPair(patch_size=config.gt_sizes[progressive_index], normalization=dataset_normalization)
         dataloader = DataLoader(dataset=dataset, shuffle=True, batch_size=config.mini_batch_sizes[progressive_index], num_workers=8, pin_memory=True)
     else :
-        if config.data_mode == "lmdb":
-            dataset = LMDBMetaLensPair(patch_size=config.patch_size, normalization=dataset_normalization, coord_info=config.coord_info)
-        else :
-            dataset = MetaLensPair(patch_size=config.patch_size, normalization=dataset_normalization, coord_info=config.coord_info)
+        dataset = LMDBMetaLensPair(patch_size=config.patch_size, normalization=dataset_normalization, coord_info=config.coord_info)
         dataloader = DataLoader(dataset, batch_size=config.batch_size, shuffle=True, num_workers=8, pin_memory=True)
 
     if loss_dict == None:
