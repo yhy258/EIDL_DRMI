@@ -6,7 +6,7 @@ if __name__ == "__main__":
     config = DRMI_Config()
     config.model_type = "DRMILocal"
     config.cuda_num = 3
-    config.eval_ep = 24
+    config.eval_ep = 7500
     config.coord_info = True
     if hasattr(config, "coord_info"):
         if config.coord_info:
