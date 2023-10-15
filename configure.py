@@ -3,7 +3,6 @@ import os
 class DRMI_Config():
     cuda_num = 0
     model_type = "DRMI"
-    data_mode = 'lmdb'
     data_path = ""
     patch_size = 256
     
