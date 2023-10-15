@@ -12,8 +12,8 @@ if __name__ == "__main__":
         if config.coord_info:
             config.in_channels = 5
             
-    config.loss_types = ["PSNRLoss", "FrequencyDivLoss"]
-    config.loss_weights = [1.0, 0.5]
+    config.loss_types = ["PSNRLoss"]
+    config.loss_weights = [1.0]
 
 #     config.green_skip = True
     config.fourier_adversarial = True
