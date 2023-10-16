@@ -1,4 +1,4 @@
-name: detect2
+name: DRMI
 channels:
   - anaconda
   - pytorch
