@@ -122,7 +122,7 @@ In this study, we propose the DNN-based image Reconstruction framework customize
 ```
 
 ## Data preparation
-Our metalens dataset used in the paper can be accessed on [Google drive](https://drive.google.com/drive/folders/1IuXorBlklxs4w-iCFsSWbN2v0CchJH68?usp=sharing)
+Our metalens dataset used in the paper can be accessed on [Google drive](https://drive.google.com/drive/folders/1IuXorBlklxs4w-iCFsSWbN2v0CchJH68?usp=sharing).
 
 The train-test data should be placed in  data/DRMI_dataset/{train or test} directory. :
 ```
@@ -137,6 +137,15 @@ EIDL_DRMI (repository)
                 └───meta.lmdb 
 ```
 
+ The pretrained DRMI weights used in the paper can be accessed on Google Drive.
+
+ The checkpoint should be placed in save_model/{model_type} directory. : (model_type == DRMI)
+```
+EIDL_DRMI (repository)
+└───save_mode
+      └───DRMI
+            └───coord_fourier_adv_model_7500.pt
+```
 
 
 
