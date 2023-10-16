@@ -104,24 +104,6 @@ In this study, we propose the DNN-based image Reconstruction framework customize
 </tbody>
 </table>
 
-## Installation
-1. Download our repository
-```bash
-git clone https://github.com/yhy258/EIDL_DRMI.git
-cd EIDL_DRMI
-```
-
-2. Create conda environment
-```bash
-conda create -n DRMI python=3.8
-conda activate DRMI
-```
-
-3. Install requirements.txt
-```bash
-conda env create -f env.yml
-```
-
 ## Data preparation
 Our metalens dataset used in the paper can be accessed on [Google drive](https://drive.google.com/drive/folders/1IuXorBlklxs4w-iCFsSWbN2v0CchJH68?usp=sharing).
 
