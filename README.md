@@ -137,9 +137,9 @@ EIDL_DRMI (repository)
                 └───meta.lmdb 
 ```
 
- The pretrained DRMI weights used in the paper can be accessed on Google Drive.
+The pretrained DRMI weights used in the paper can be accessed on [Google Drive](https://drive.google.com/file/d/1Myy1bf1gRYKIqpum4a7nJsWrsjmDD-RS/view?usp=sharing).
 
- The checkpoint should be placed in save_model/{model_type} directory. : (model_type == DRMI)
+The checkpoint should be placed in save_model/{model_type} directory. : (model_type == DRMI)
 ```
 EIDL_DRMI (repository)
 └───save_model
