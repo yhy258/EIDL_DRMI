@@ -113,7 +113,7 @@ cd EIDL_DRMI
 
 2. Create conda environment
 ```bash
-conda env create -n DRMI
+conda create -n DRMI
 ```
 
 3. Install requirements.txt
