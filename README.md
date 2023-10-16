@@ -105,7 +105,6 @@ In this study, we propose the DNN-based image Reconstruction framework customize
 </table>
 
 ## Installation
-To match the GPU used in this work and cuda version, we use pytorch 2.0.1 and cuda 11.8.
 
 
 1. Download our repository
@@ -121,6 +120,8 @@ conda activate DRMI
 ```
 
 3. Install requirements.txt
+  - Linux
+  - PyTorch >= 1.8.1
 ```bash
 conda env create -f env.yml
 ```
