@@ -113,7 +113,7 @@ cd EIDL_DRMI
 
 2. Create conda environment
 ```bash
-conda create -n DRMI
+conda create -n DRMI python=3.8
 conda activate DRMI
 ```
 
