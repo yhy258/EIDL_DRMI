@@ -22,6 +22,7 @@ Joonho Kang<sup>2,</sup>,
 > **Abstract:** *Recent advances in metasurface lenses (metalenses) show great potential for opening a new era of compact imaging, photography, LiDAR, and VR/AR applications. However, the reported performances of manufactured broadband metalenses are still limited due to a fundamental trade-off between broadband focusing efficiency and operating bandwidth, resulting in chromatic aberrations, angular aberrations, and relatively low efficiency. Here, we demonstrate a deep learning-based image restoration framework to overcome these limitations and to realize end-to-end metalens imaging. The proposed image restoration framework achieves aberration-free full-color imaging for one of the largest mass-produced metalens (10-mm-diameter). The metalens imaging assisted by the neural network provides competitive image qualities compared to the ground truth.* 
 <hr />
 </div>
+
 ## Introduction
 
 
@@ -104,12 +105,38 @@ In this study, we propose the DNN-based image Reconstruction framework customize
 </table>
 
 ## Installation
+1. Download our repository
+```
+git clone https://github.com/yhy258/EIDL_DRMI.git
+cd EIDL_DRMI
+```
+
+2. Create conda environment
+```
+conda env create -n DRMI
+```
+
+3. Install requirements.txt
 ```bash
     pip install -r requirements.txt
 ```
 
 ## Data preparation
-Coming soon..
+Our metalens dataset used in the paper can be accessed on [Google drive](https://drive.google.com/drive/folders/1IuXorBlklxs4w-iCFsSWbN2v0CchJH68?usp=sharing)
+
+The train-test data should be placed in  data/DRMI_dataset/{train or test} directory. :
+```
+EIDL_DRMI (repository)
+└───data
+      └───DRMI_dataset
+            ├───train
+            │   ├───ground_truth.lmdb
+            │   └───meta.lmdb  
+            └───test
+                ├───ground_truth.lmdb
+                └───meta.lmdb 
+```
+
 
 
 
