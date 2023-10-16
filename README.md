@@ -123,7 +123,7 @@ conda activate DRMI
   - Linux
   - PyTorch >= 1.8.1
 ```bash
-conda env create -f env.yml
+pip install -r requirements.txt
 ```
 
 
