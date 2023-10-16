@@ -142,7 +142,7 @@ EIDL_DRMI (repository)
  The checkpoint should be placed in save_model/{model_type} directory. : (model_type == DRMI)
 ```
 EIDL_DRMI (repository)
-└───save_mode
+└───save_model
       └───DRMI
             └───coord_fourier_adv_model_7500.pt
 ```
