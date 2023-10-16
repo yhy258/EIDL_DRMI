@@ -22,6 +22,10 @@ def save_models(config,
         file_name = f"spatial_fourier_adv_model_{config.gan_weights['adv']}_{config.gan_weights['fft_adv']}_{epoch}.pt"
         if config.coord_info:
             file_name = "coord_" + file_name
+        if len(config.loss_types) > 1 :
+            for i, lt in enumerate(config.loss_types[1:]):
+                loss_name = lt[:-4] + str(config.loss_weights[i+1])
+                file_name = loss_name+"_"+file_name
         torch.save({
                 "model": model.state_dict(),
                 "optimizer" : optimizer.state_dict(),
@@ -112,6 +116,10 @@ def load_models(config,
         file_name = f"spatial_fourier_adv_model_{config.gan_weights['adv']}_{config.gan_weights['fft_adv']}_{epoch}.pt"
         if config.coord_info:
             file_name = "coord_" + file_name
+        if len(config.loss_types) > 1 :
+            for i, lt in enumerate(config.loss_types[1:]):
+                loss_name = lt[:-4] + str(config.loss_weights[i+1])
+                file_name = loss_name+"_"+file_name
             
                 
         load_path = os.path.join(save_root, file_name)
@@ -191,7 +199,3 @@ def load_models(config,
         this_iter = checkpoint["this_iter"]
         loss_info = checkpoint["loss_info"]
         return this_iter, loss_info
-
-if __name__ == "__main__":
-    import torch
-    print(torch.cuda.is_available())

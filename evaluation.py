@@ -11,7 +11,7 @@ def save_image_bunch_npy(save_path, datas): # shape : BS, C, H, W
         datas = datas.cpu().numpy()
     np.save(save_path, datas)
 
-def pnsr_ssim_eval(config, Xs, Ys, device):
+def psnr_ssim_eval(config, Xs, Ys, device):
 
     # pyiqa
     x, y = Xs, Ys
@@ -150,37 +150,7 @@ def prepare_and_save_images(config, dataloader, device):
 
     return gt_samples, recon_samples, loss_dict
 
-def visualize(config, gt_samples, recon_samples, loss_info, num=4):
-    x = gt_samples.cpu().permute(0, 2, 3, 1)[:num]
-    x_prime = recon_samples.cpu().permute(0, 2, 3, 1)[:num]
-    
-    if config.dataset_normalization:
-        x_prime = (x_prime + 1) / 2
-        x = (x + 1) / 2
-    
-    # subplot(r,c) provide the no. of rows and columns
-    f, axarr = plt.subplots(num+1, 2)
-    for i in range(num):
-        axarr[i, 0].imshow(x[i])
-        axarr[i, 0].grid(False)
-        axarr[i, 0].axis(False)
-
-        axarr[i, 1].imshow(x_prime[i])
-        axarr[i, 1].grid(False)
-        axarr[i, 1].axis(False)
-
-
-
-    axarr[-1, 0].plot(loss_info["Total Loss"])
-    axarr[-1, 0].title.set_text('Total Loss Plot')
-    axarr[-1, 1].plot(loss_info["PSNR Eval"])
-    axarr[-1, 1].title.set_text('PSNR Eval Plot')
-
-
-    plt.show()
-    
-    
-    
+        
 
 def evaluation(config):
     device = f'cuda:{config.cuda_num}' if torch.cuda.is_available() else 'cpu'
@@ -190,17 +160,11 @@ def evaluation(config):
     if config.adversarial or config.fourier_adversarial :
         config.dataset_normalization = True
 
-    if config.data_mode == "lmdb":
-        dataset = LMDBMetaLensPair(train=False, normalization=config.dataset_normalization, coord_info=config.coord_info)
-    else :
-        dataset = MetaLensPair(train=False, normalization=config.dataset_normalization, coord_info=config.coord_info)
-        
+    dataset = LMDBMetaLensPair(path=config.data_path, train=False, normalization=config.dataset_normalization, coord_info=config.coord_info)
     dataloader = DataLoader(dataset, batch_size=1, shuffle=False, num_workers=4, pin_memory=False)
 
     gt_samples, recon_samples, loss_dict = prepare_and_save_images(config, dataloader, device)
-
-    pnsr, ssim, lpips = pnsr_ssim_eval(config, gt_samples, recon_samples, device)
-    print(f"-- PSNR : {pnsr} \t SSIM : {ssim} \t LPIPS : {lpips} --")
+    # (shape : BS, C, H, W) npy data is saved.
+    psnr, ssim, lpips = psnr_ssim_eval(config, gt_samples, recon_samples, device)
+    print(f"-- PSNR : {psnr} \t SSIM : {ssim} \t LPIPS : {lpips} --")
     
-    # visualization:
-    visualize(config, gt_samples, recon_samples, loss_dict, num=4)

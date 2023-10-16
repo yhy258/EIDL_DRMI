@@ -3,7 +3,7 @@ import os
 class DRMI_Config():
     cuda_num = 0
     model_type = "DRMI"
-    data_path = ""
+    data_path = "data/DRMI_dataset"
     patch_size = 256
     
     # train
@@ -22,7 +22,16 @@ class DRMI_Config():
     optim_type = "AdamW"
     scheduler = "CosineAnnealingLR"
 
+    # loss types : L1Loss, MSELoss, PSNRLoss, ..
+    # Auxiliary loss : FocalFrequencyLoss, EdgeLoss, ...
+
+    """
+        loss_types = [L1Loss, FocalFrequencyLoss]
+        loss_weights = [1., 0.1]
+    """
+
     loss_types = ["PSNRLoss"]
+    loss_weights = [1.]
 
     
     # NAFNet's Parameters
@@ -34,7 +43,7 @@ class DRMI_Config():
     dec_blk_nums = [2, 2, 2, 2]
 
     # model save
-    save_root = ""   
+    save_root = "save_model"   
     save_frequency = 1000
     
     if "Local" in model_type:

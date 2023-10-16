@@ -14,11 +14,11 @@ if __name__ == "__main__":
 
     config.fourier_adversarial = True
     config.gan_weights = {"fft_adv" :0.5}
+    config.save_frequency = 1
 
 
     print("Config Information")
     print(f"Model Type : {config.model_type}\
-            \nData Mode : {config.data_mode}\
             \nCoord Info : {config.coord_info}\
             \nEntire Iteration : {config.iteration}\
             \nAdversarial Training : {config.adversarial}\

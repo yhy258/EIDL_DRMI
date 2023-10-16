@@ -134,10 +134,10 @@ def train(config):
         else:
             next_iter = cumsum_iters[progressive_index+1]
 
-        dataset = LMDBMetaLensPair(patch_size=config.gt_sizes[progressive_index], normalization=dataset_normalization)
+        dataset = LMDBMetaLensPair(path=config.data_path, patch_size=config.gt_sizes[progressive_index], normalization=dataset_normalization)
         dataloader = DataLoader(dataset=dataset, shuffle=True, batch_size=config.mini_batch_sizes[progressive_index], num_workers=8, pin_memory=True)
     else :
-        dataset = LMDBMetaLensPair(patch_size=config.patch_size, normalization=dataset_normalization, coord_info=config.coord_info)
+        dataset = LMDBMetaLensPair(path=config.data_path, patch_size=config.patch_size, normalization=dataset_normalization, coord_info=config.coord_info)
         dataloader = DataLoader(dataset, batch_size=config.batch_size, shuffle=True, num_workers=8, pin_memory=True)
 
     if loss_dict == None:
