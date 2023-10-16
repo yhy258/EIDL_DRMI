@@ -106,13 +106,13 @@ In this study, we propose the DNN-based image Reconstruction framework customize
 
 ## Installation
 1. Download our repository
-```
+```bash
 git clone https://github.com/yhy258/EIDL_DRMI.git
 cd EIDL_DRMI
 ```
 
 2. Create conda environment
-```
+```bash
 conda env create -n DRMI
 ```
 
