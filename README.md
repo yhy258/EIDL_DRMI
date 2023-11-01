@@ -153,6 +153,17 @@ EIDL_DRMI (repository)
             └───coord_fourier_adv_model_7500.pt
 ```
 
+## Training
+After preparing the dataset in data/DRMI_dataset directory, use
+```
+python3 DRMI_train.py
+```
+To change the settings for training, modify config.py or DRMI_train.py.
+As you train, the model's checkpoints are saved to the save_root/model_type you specified in config.py. The name of the checkpoint is determined by the training settings.
 
-
+## Evaluation
+```
+python3 DRMI_evaluation.py
+```
+Upon evaluation, performance metrics for the restoration result are printed, and the restored image data is saved to the image_save_path/model_type location previously set by the user, along with the ground truth image data used.
 
