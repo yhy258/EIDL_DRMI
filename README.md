@@ -59,7 +59,7 @@ In this study, we propose the DNN-based image Reconstruction framework customize
     <td class="tg-c3ow" colspan="1" align="center">0.464/0.160</td>
     <td class="tg-c3ow" colspan="1" align="center">0.788/0.112</td>
     <td class="tg-c3ow" colspan="1" align="center">3.2805</td>
-    <td class="tg-c3ow" colspan="1" align="center">0.6394</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.922</td>
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="1" align="center">MIRNetV2</td>
@@ -67,7 +67,7 @@ In this study, we propose the DNN-based image Reconstruction framework customize
     <td class="tg-c3ow" colspan="1" align="center">0.586/0.135</td>
     <td class="tg-c3ow" colspan="1" align="center">0.553/0.098</td>
     <td class="tg-c3ow" colspan="1" align="center">2.2403</td>
-    <td class="tg-c3ow" colspan="1" align="center">0.6445</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.967</td>
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="1" align="center">SFNet</td>
@@ -75,7 +75,7 @@ In this study, we propose the DNN-based image Reconstruction framework customize
     <td class="tg-c3ow" colspan="1" align="center">0.597/0.129</td>
     <td class="tg-c3ow" colspan="1" align="center">0.520/0.095</td>
     <td class="tg-c3ow" colspan="1" align="center">2.1941</td>
-    <td class="tg-c3ow" colspan="1" align="center">0.6460</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.965</td>
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="1" align="center">HINet(Local)</td>
@@ -83,7 +83,7 @@ In this study, we propose the DNN-based image Reconstruction framework customize
     <td class="tg-c3ow" colspan="1" align="center">0.674/0.117</td>
     <td class="tg-c3ow" colspan="1" align="center">0.449/0.097</td>
     <td class="tg-c3ow" colspan="1" align="center">1.8508</td>
-    <td class="tg-c3ow" colspan="1" align="center">0.6563</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.982</td>
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="1" align="center">NAFNet</td>
@@ -91,7 +91,7 @@ In this study, we propose the DNN-based image Reconstruction framework customize
     <td class="tg-c3ow" colspan="1" align="center">0.676/0.116</td>
     <td class="tg-c3ow" colspan="1" align="center">0.436/0.097</td>
     <td class="tg-c3ow" colspan="1" align="center">1.8165</td>
-    <td class="tg-c3ow" colspan="1" align="center">0.6555</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.983</td>
   </tr>
   <tr>
     <td class="tg-c3ow" colspan="1" align="center">DRMI</td>
@@ -99,7 +99,7 @@ In this study, we propose the DNN-based image Reconstruction framework customize
     <td class="tg-c3ow" colspan="1" align="center">0.691/0.109</td>
     <td class="tg-c3ow" colspan="1" align="center">0.428/0.096</td>
     <td class="tg-c3ow" colspan="1" align="center">1.7585</td>
-    <td class="tg-c3ow" colspan="1" align="center">0.6589</td>
+    <td class="tg-c3ow" colspan="1" align="center">0.984</td>
 </tr>
 </tbody>
 </table>
