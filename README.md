@@ -128,7 +128,7 @@ pip install -r requirements.txt
 
 
 ## Data preparation
-Our metalens dataset used in the paper can be accessed on [Google drive](https://drive.google.com/drive/folders/1IuXorBlklxs4w-iCFsSWbN2v0CchJH68?usp=sharing).
+Our metalens dataset used in the paper can be accessed on [Figshare](https://figshare.com/articles/figure/Dataset_for_DRMI/24634740).
 
 The train-test data should be placed in  data/DRMI_dataset/{train or test} directory. :
 ```
