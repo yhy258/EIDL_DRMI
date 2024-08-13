@@ -167,3 +167,13 @@ python3 DRMI_evaluation.py
 ```
 Upon evaluation, performance metrics for the restoration result are printed, and the restored image data is saved to the image_save_path/model_type location previously set by the user, along with the ground truth image data used.
 
+
+## Citation
+```
+@article{seo2023deep,
+  title={Deep-learning-driven end-to-end metalens imaging},
+  author={Seo, Joonhyuk and Jo, Jaegang and Kim, Joohoon and Kang, Joonho and Kang, Chanik and Moon, Seongwon and Lee, Eunji and Hong, Jehyeong and Rho, Junsuk and Chung, Haejun},
+  journal={arXiv preprint arXiv:2312.02669},
+  year={2023}
+}
+```
